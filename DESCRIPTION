@@ -1,0 +1,18 @@
+Package: GFFparser
+Title: A package to parse GFF file
+Version: 0.0.0.9000
+Authors@R: 
+    person("Dorine", "MERLAT", email = "dorine.merlat@etu.unistra.fr", role = c("aut", "cre"))
+Description: This package provides functions to parse a GFF file into a dataframe.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    ape (>= 5.8.1),
+    dplyr (>= 1.1.4),
+    stringr (>= 1.5.1)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
